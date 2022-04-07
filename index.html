@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdvanceCalculator</title>
+    <link rel="stylesheet" href="AdvanceCalculator.css">
+</head>
+<body>
+    <h2 align="center" style="margin-top:20px; font-size:30px;">Advance Calculator using javasript</h2>
+    <div class="container">
+        <form action="" name="main">
+            <input type="text" class="text" name="result"><br><br>
+            <input type="button" value="1" name="1" onclick="main.result.value +='1'">
+            <input type="button" value="2" name="2" onclick="main.result.value += '2' ">
+            <input type="button" value="3" name="3" onclick="main.result.value += '3' ">
+            <br><br>
+            <input type="button" value="4" name="4" onclick="main.result.value += '4' ">
+            <input type="button" value="5" name="5" onclick="main.result.value += '5' ">
+            <input type="button" value="6" name="6" onclick="main.result.value += '6' ">
+            <br><br>
+            <input type="button" value="7" name="7" onclick="main.result.value += '7' ">
+            <input type="button" value="8" name="8" onclick="main.result.value += '8' ">
+            <input type="button" value="9" name="9" onclick="main.result.value += '9' ">
+            <br><br>
+            <input type="button" value="0" name="0" onclick="main.result.value += '0' ">
+            <input type="button" value="+" name="+" onclick="main.result.value += '+' ">
+            <input type="button" value="-" name="-" onclick="main.result.value += '-'">
+            <br><br>
+            <input type="button" value="*" name="*" onclick="main.result.value += '*'">
+            <input type="button" value="/" name="/" onclick="main.result.value += '/'">
+            <input type="button" value="%" name="%" onclick="main.result.value += '%'">
+            <br><br>
+            <input type="button" value="=" name="=" onclick="main.result.value=eval(main.result.value)">
+            <input type="button" value="On" name="On">
+            <input type="button" value="Off" name="Off">
+            <br><br>
+            <input type="submit" value="Clear all" class="btn" onclick="main.result.value=''">
+        </form>
+    </div>
+</body>
+</html>
